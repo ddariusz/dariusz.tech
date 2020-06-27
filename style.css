@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*text*/
+html { 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    }
+    
+/*body*/
+body {
+  max-width: 38em;
+  margin: auto;
+  padding: 13px;
+  }
+
+
+/*heading*/
+#contact {
+    position: relative;
+    top: 10px;
+}
+
+#main_title {
+    position: relative;
+    top: 10px;
+}
+
+
+/*links*/
+a:hover {
+    text-decoration-style: dotted;
+    }
