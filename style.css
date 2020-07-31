@@ -32,3 +32,10 @@ body {
 a:hover {
     text-decoration-style: dotted;
     }
+
+.image-wrapper {
+    max-width: 400px;
+}
+.image-wrapper img {
+    width: 100%;
+ }
