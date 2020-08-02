@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*text*/
+html { 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    }
+    
+/*body*/
+body {
+  max-width: 38em;
+  margin: auto;
+  padding: 13px;
+  }
+
+footer {
+  color: rgb(1, 95, 79);
+}
+/*heading*/
+#contact {
+    position: relative;
+    top: 10px;
+}
+
+#main_title {
+    position: relative;
+    top: 10px;
+}
+
+h1, h2 {
+  color: rgb(1, 95, 79);
+
+}
+/*links*/
+a:link {
+  color: rgb(1, 95, 79);
+}
+a:visited {
+  color: rgb(94, 99, 98);
+}
+a:hover {
+    text-decoration-style: dotted;
+    }
+
+
+.toggle {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px 0 0;
+}
+.toggle__input {
+  display: none;
+}
+.toggle__button {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: rgb(1, 95, 79);
+  border:1px solid rgb(1, 95, 79);
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.toggle__button:before {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  right: auto;
+  display: inline-block;
+  height: 20px;
+  width: 52px;
+  padding: 0 3px;
+  background-color: #ffffff;
+  color: rgb(1, 95, 79);
+  content: "about";
+  transition: all 0.3s ease;
+}
+.toggle__input:checked + .toggle__button {
+  background-color: rgb(201, 131, 1);
+  border:1px solid rgb(201, 131, 1);
+}
+.toggle__input:checked + .toggle__button:before {
+  left: 40px;
+  content: "dev";
+  color: rgb(231, 168, 50);
+}
