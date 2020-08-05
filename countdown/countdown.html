@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles/style.css" />  
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-eqiv="X-UA-Compatible" content="ie=edge" />
+    <script src="scripts/fullscreen.js"></script>
+</head>
+
+<body>
+
+    <div class="timer" id="Timer">
+        
+        <div class="display" id="fullScreenElement"><h1 class="display__time-left"></h1></div>
+       
+        <div class="timer__controls">
+            <form name="customForm" id="custom">
+            <input type="text" name="minutes" placeholder="Enter Minutes">
+            </form>
+        </div>
+
+    <button onclick="activateFullscreen(document.documentElement);">Go fullscreen!</button>
+    <button onclick="deactivateFullscreen();">Leave fullscreen</button>
+    
+    </div>
+
+<script src="scripts/countdown.js"></script>
+
+</body>
+</html>
