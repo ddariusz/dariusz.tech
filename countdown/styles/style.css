@@ -8,17 +8,21 @@ html {
     font-weight: 100;
     color: white;
   }
-  
-@media screen and (min-width: 950px) {
-    .display__time-left {
-      font-size: 24rem;
-    }
-  }
+
+
+
 @media screen and (min-width: 620px) {
     .display__time-left {
     font-size: 16rem;
   }
 }
+
+@media screen and (min-width: 950px) {
+    .display__time-left {
+      font-size: 24rem;
+    }
+  }
+
   
 /* center items*/
   .timer {
