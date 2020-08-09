@@ -9,9 +9,13 @@ html {
     color: white;
   }
 
+@media screen and (min-width: 500px) {
+    .display__time-left {
+    font-size: 12rem;
+  }
+}
 
-
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 700px) {
     .display__time-left {
     font-size: 16rem;
   }
