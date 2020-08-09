@@ -9,12 +9,12 @@ html {
     color: white;
   }
   
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 950px) {
     .display__time-left {
       font-size: 24rem;
     }
   }
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 620px) {
     .display__time-left {
     font-size: 16rem;
   }
